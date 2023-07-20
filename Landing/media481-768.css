@@ -1,0 +1,63 @@
+@media screen and (max-width:768px) {
+    nav{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+      }
+    main{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .calc_reck p{
+        font-size: 13px;
+    }
+    .about{
+        flex-direction: column;
+        padding: 50px 30px;
+        padding-bottom: 50px;
+    }
+    .about_text{
+        width: 100%;
+    }
+    .about_txtp p{
+        width: 100%;
+    }
+    .about_img{
+        width: 100%;
+        padding-top: 0px;
+    }
+    .map{
+        width: 100%;
+        padding: 100px 20px;
+    }
+    .for_map{
+        width: 100%;
+    }
+    .for_map_txt{
+        padding: 30px;
+    }
+    .footer_text p{
+        font-size: 8px;
+    }
+    .black_but{
+        padding: 10px;
+    }
+    .apranqner{
+        padding: 50px;
+    }
+    .apranqflexbox_1{
+        padding: 40px;
+    }
+    .for_map_txt h2{
+        font-size: 20px;
+    }
+    .for_map_txt p{
+        font-size: 12px;
+    }
+    .for_map_txt{
+        gap: 5px;
+    }
+}

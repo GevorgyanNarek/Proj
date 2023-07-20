@@ -1,0 +1,83 @@
+@media screen and (max-width:480px) {
+    main{
+        padding: 30px;
+    }
+    .calculator{
+        padding: 100px 2%;
+    }
+    .calc_reck p{
+        font-size: 10px;
+    }
+    .calc_length_generation_count input{
+        width: 60px;
+        height: 30px;
+    }
+    .plusminus{
+        font-size: 20px;
+    }
+    .calc_reck .calc_ppp{
+        text-align: start;
+        color: #2A2D46;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .calculator>h2{
+        font-size: 25px;
+    }
+    .calc_reck label{
+        font-size: 12px;
+    }
+    #calc_check{
+        width: 15px;
+        height: 15px;
+    }
+    .calc_contact input{
+        width: 80%;
+    }
+    .calc_contact form{
+        width: 100%;
+    }
+    .apranqner>h2{
+        font-size: 22px;
+    }
+    .for_logo > img{
+        width: 80px;
+    }
+    .for_logo h2{
+        font-size: 8px;
+    }
+    .for_logo2 h2{
+        font-size: 8px;
+    }
+    .for_logo2 > img{
+        width: 40px;
+    }
+    main{
+        padding: 10px;
+    }
+    /* .main_div{
+        background: transparent;
+    } */
+    footer{
+        padding: 20px 10px;
+    }
+    .footer_img img{
+        width: 70px;
+    }
+    .footer_img p{
+        font-size: 6px;
+    }
+    .footer_text p{
+        font-size: 6px;
+    }
+    .top__ div{
+        width: 40px;
+        height: 40px;
+    }
+    .top__{
+        height: 100px;
+    }
+}

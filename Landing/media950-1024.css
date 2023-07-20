@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px) {
+    .about_txtp p{
+        font-size: 12px;
+    }
+    .about_txtp h2{
+        font-size: 15px;
+    }
+    .about_text > h2{
+        font-size: 22px;
+    }
+    .about_text{
+        gap: 50px;
+    }
+    footer{
+        padding: 20px 50px;
+    }
+    .for_calc{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .calc_contact{
+        width: 100%;
+        padding-top: 10%;
+    }
+    .calc_reck{
+        width: 100%;
+        padding-right: 0;
+    }
+    .for_logo > img{
+        width: 100px;
+    }
+    .for_logo h2{
+        font-size: 10px;
+    }
+    .for_logo2 > img{
+        width: 50px;
+    }
+    .for_logo2 h2{
+        font-size: 10px;
+    }
+    header nav ul{
+        gap: 12px;
+    }
+    header nav li a{
+        font-size: 12px;
+    }
+    nav{
+        width: 50%;
+    }
+    .main_div h1{
+        font-size: 19px;
+    }
+    .main_div ul li{
+        font-size: 11px;
+    }
+    .main_div{
+        padding: 30px 20px;
+        padding-left: 30px;
+    }
+    .button{
+        padding: 15px 5px;
+    }
+    .calc_contact form{
+        width: 70%;
+    }
+}

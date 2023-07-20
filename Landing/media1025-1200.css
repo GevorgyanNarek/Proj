@@ -1,0 +1,69 @@
+@media screen and (max-width:1525px) {
+    header{
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+    .for_logo2 h2{
+        font-size: 14px;
+    }
+    .for_logo h2{
+        font-size: 14px;
+    }
+    header nav li a{
+        font-size: 14px;
+    }
+    .for_logo > img{
+        width: 150px;
+    } 
+    .for_logo2 > img{
+        width: 77px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    .black_but{
+        gap: 2px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .main_div h1{
+        font-size: 30px;
+    }
+    .main_div ul li{
+        font-size: 15px;
+    }
+
+    /* .about_txtp p{
+        width: 300px;
+        font-size: 12px;
+    } */
+    .about_img{
+        flex-direction: column;
+    }
+    .about_img img:nth-child(1){
+        width: 50%;
+    }
+    .about_img img:nth-child(2){
+        width: 90%;
+    }
+    .apranqflexbox_1{
+        padding: 50px 100px;
+    }
+    .see_all{
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .apranqflexbox_1{
+        padding: 40px;
+    }
+}
+@media screen and (max-width:945px) {
+    .apranqflexbox_1{
+        padding: 50px 100px;
+    }
+}
