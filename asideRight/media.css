@@ -1,0 +1,60 @@
+@media screen and (max-width:1680px) {
+
+    .aside__right {
+        padding: 20px 10px;
+      }
+
+    .aside__info p{
+        font-size: 13px;
+    }
+
+    .aside__info span{
+        font-size: 14px;
+    }   
+}
+
+@media screen and (max-width:1600px) {
+
+    .aside__list__item{
+        max-width: 70%;
+    }
+
+
+    .aside__info p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1450px) {
+
+    .aside__info p{
+        font-size: 13px;
+    }
+
+    .aside__info span{
+        font-size: 14px;
+        max-width: 40%;
+    }   
+
+    .aside__notific span{
+        width: 40%;
+        text-align: center;
+    } 
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .aside__notific span{
+        font-size: 11px;
+    } 
+    .aside__notific h4{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .aside__list__item{
+        max-width: 65%;
+    }
+}

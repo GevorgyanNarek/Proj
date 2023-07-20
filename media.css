@@ -1,0 +1,264 @@
+@media screen and (max-width:2000px) {
+    /* Main */
+    .counter__graph_title,.list-counter__title,.info-counter__add_cach h4,.info-counter__add h5{
+        font-size: 18px;
+    }
+    .list-counter__table_title{
+        font-size: 17px;
+    }
+    .counter__graph_buts > button{
+        padding: 6px 10%;
+    }
+    
+    .counter__graph_setting > ul,.info-counter__add_activities_item,.list-counter__table_item{
+        font-size: 16px;
+    }      
+    .counter__graph_setting > ul > li::after{
+        top: 4px;
+    }
+    .info-counter__add_cach p{
+        font-size: 14px;
+    }
+    
+
+}
+
+@media screen and (max-width:1900px) {
+    /* Main */
+    .counter__graph_title,.list-counter__title{
+        font-size: 16px;
+    }
+    .counter__graph_buts > button{
+        padding: 6px 9%;
+    }
+    .list-counter__table_title{
+        font-size: 15px;
+    }
+    .counter__graph_setting > ul,.list-counter__table_item{
+        font-size: 14px;
+    }      
+    .counter__graph_setting > ul > li::after{
+        top: 3px;
+    }
+    .info-counter__add_cach p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .info-counter__add_cach h4,.info-counter__add h5{
+        font-size: 16px;
+    }
+    .info-counter__add_cach p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1750px){
+    /* Right Aside */
+    .aside__right {
+        padding: 20px 10px;
+      }
+
+    .aside__info p{
+        font-size: 13px;
+    }
+
+    .aside__info span{
+        font-size: 14px;
+    }  
+}
+@media screen and (max-width:1700px) {
+    /* Left Aside */
+    .aside-left__item{
+        font-size: 15px;
+        gap: 3%;
+        padding: 6px 10px 6px 6px;
+    }
+    /* Main */
+    .counter__graph_title,.list-counter__title{
+        font-size: 14px;
+    }
+    .counter__graph_buts > button{
+        padding: 6px 8%;
+    }
+    .counter__graph_setting > ul{
+        font-size: 13px;
+    }      
+    .counter__graph_setting > ul > li::after{
+        top: 2px;
+    }
+    .info-counter__add_cach h4,.info-counter__add h5{
+        font-size: 15px;
+    }
+    .info-counter__add_cach p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:1680px) {
+    /* Right Aside */
+    .aside__right {
+       padding: 20px 8px;
+     }
+
+    .aside__info p{
+        font-size: 12px;
+    }
+
+    .aside__info span{
+        font-size: 14px;
+    }
+    /* Rigth Aside */
+    .aside__list__item{
+        max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    /* Main */
+    .info-counter__add_cach h4{
+        font-size: 12px;
+    }
+    .info-counter__add_cach p{
+        font-size: 10px;
+    }
+    .info-counter__add_cach > div{
+        padding: 10px 14px;
+    }
+    .info-counter__add h5{
+        font-size: 13px;
+    }
+    .info-counter__add_activities_item{
+        font-size: 14px;
+    }
+
+    /* Rigth Aside */
+
+    .aside__info p{
+        font-size: 13px;
+    }
+    .aside__list__item{
+        max-width: 75%;
+    }
+
+}
+
+@media screen and (max-width:1500px) {
+    /* Main */
+    .counter__graph_title,.list-counter__title,.counter__graph_setting > ul{
+        font-size: 12px;
+    }
+    .counter__graph_buts > button{
+        padding: 5px 8%;
+    }   
+    .counter__graph_setting > ul > li::after{
+        top: 1px;
+    }
+    .info-counter__add_cach > div{
+        padding: 8px 10px;
+    }
+    .info-counter__add h5,.list-counter__table_item{
+        font-size: 13px;
+    }
+    .list-counter__table_title{
+        font-size: 14px;
+    }
+
+    /* Left Aside */
+    .aside-left__item{
+        font-size: 14px;
+        gap: 2%;
+        padding: 6px 10px 6px 4px;
+    }
+    /* Right Aside */
+    .aside__info p{
+        font-size: 13px;
+    }
+
+    .aside__info span{
+        font-size: 14px;
+        max-width: 40%;
+    }   
+
+    .aside__notific span{
+        width: 40%;
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width:1400px) {
+    /* Left Aside */
+
+    .aside-left__item{
+        font-size: 13px;
+        padding: 6px 10px 6px 2px;
+    }
+    /* Right Aside */
+    .aside__notific h4{
+        font-size: 14px;
+    }
+
+    /* Main */
+    .counter__graph_buts > button{
+        padding: 6px 6%;
+    }
+    .info-counter__add_cach h4{
+        font-size: 11px;
+    }
+    .info-counter__add_cach p{
+        font-size: 9px;
+    }
+    .info-counter__add_activities_item,.list-counter__table_item{
+        font-size: 12px;
+    }
+    .list-counter__table_title{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    /* Left Aside */
+    .aside-left__item{
+        font-size: 12px;
+    }
+    /* Right Aside */
+    .aside__notific span{
+        font-size: 11px;
+    } 
+    
+    /* Main */
+    .counter__graph_title,.list-counter__title{
+        font-size: 11px;
+    }
+    .counter__graph_buts > button{
+        padding: 6px 6%;
+    }
+    .counter__graph_setting > ul,.info-counter__add_cach h4{
+        font-size: 10px;
+    }      
+    .info-counter__add_cach h3{
+        font-size: 23px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1260px) {
+    /* Right Aside */
+    .aside__list__item{
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /* Right Aside */
+    .aside-left__item{
+        font-size: 10px;
+    }
+}
+
+

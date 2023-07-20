@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="forPosition">
+        <aside class="aside-left">
+            <div class="logo">
+                <img src="image/Logo.svg" alt="logo">
+            </div>
+            <ul class="aside-left__menu ">
+                <li class="aside-left__item aside-left__item-active">
+                    <img src="image/Type=Dashboard, Dark mode=off.svg" alt="icon">                    
+                    Рабочий стол
+                </li>
+                <li class="aside-left__item">
+                    <img src="image/Type=Task, Dark mode=off.svg" alt="icon">
+                    Cпецификации
+                </li>
+                <li class="aside-left__item">
+                    <img src="image/Type=Plan, Dark mode=off.svg" alt="icon">
+                    Планирование
+                </li>
+                <li class="aside-left__item">
+                    <img src="image/Type=Coin, Dark mode=off.svg" alt="icon">
+                    Деб задолженность
+                </li>
+                <li class="aside-left__item">
+                    <img src="image/Type=Credit, Dark mode=off.svg" alt="icon">
+                    Кредиторка
+                </li>
+                <li class="aside-left__item">
+                    <img src="image/Type=Spec, Dark mode=off.svg" alt="icon">
+                    Задачи
+                </li>
+            </ul>
+        </aside>
+        <div class="right_side">
+            <nav>
+                <h1 class="nav__title">
+                    Рабочий стол
+                </h1>
+                <div class="nav__search_block">
+                    <i class='bx bx-search'></i>
+                    <input type="search" name="nav__search" id="nav__search" placeholder="Placeholder">
+                    <label class="nav__search_title" for="nav__search">Поиск документа</label>
+                </div>
+                <div class="nav__date">
+                    <p class="nav__date_clock">18:00</p>
+                    <p class="nav__date_day">15 Апр 2023</p>
+                </div>
+        
+                <div class="nav__switch">
+                    <input type="checkbox" id="switch">
+                    <label for="switch">
+                        <div class="switch_toggle"></div>
+                        <div class="switch_names">
+                          <p class="switch_light">
+                            <i class='bx bxs-sun' ></i>
+                          </p>
+                          <p class="dark">
+                            <i class='bx bxs-moon' ></i>
+                          </p>
+                        </div>
+                    </label>
+                </div>
+        
+                <div class="nav__logo">
+                    <img src="image/Logo (1).svg" alt="Logo">
+                    <div class="nav__logo_title">
+                        <p>Ренат Аримов</p>
+                        <span>Новый пользователь</span>
+                    </div>
+                </div>
+            </nav>
+            <div class="mainPosition">
+                <main class="dashboard">
+                    <div class="dashboard__info-counter counter">
+                        <!-- Use left__graph in js -->
+                        <div class="counter__graph_cont left__graph"> 
+                            <div class="counter__graph_controll">
+                                <div class="counter__graph_title">
+                                    <p>Информация о контрагенте</p>
+                                    <p>ООО “Артстрой” 
+                                    <img src="image/Type=Info, Dark mode=off.svg" alt="Info">    
+                                    </p>
+                                </div>
+                                <div class="counter__graph_buts">
+                                    <button class="graph_buts-active">1 М</button>
+                                    <button>1 КВ</button>
+                                    <button>ПЕРИОД</button>
+                                </div>
+                                
+                            </div>
+                            <div class="counter__graph_setting">
+                                <ul>
+                                    <li>Текущий долг</li>
+                                </ul>
+                            
+                                <img src="image/Type=Hicon, Dark mode=off.svg" alt="icon">
+                            </div>
+                            <div class="counter__graph">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="8">15M</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">10M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">5M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">1M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">0</td>
+
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td></td>
+                                            <td>01 Апр</td>
+                                            <td>02 Апр</td>
+                                            <td>03 Апр</td>
+                                            <td>04 Апр</td>
+                                            <td>05 Апр</td>
+                                            <td>06 Апр</td>
+                                            <td>07 Апр</td>
+                                        </tr>
+                                    </tfoot>
+
+                                </table>
+                                <div class="counter__graph_lines">
+                                    <img src="image/Vector 656.png" alt="">
+                                    <img src="image/Vector 657.png" alt="">
+                                </div>
+                                <div class="counter__graph_circle_cont">
+                                        <div class="counter__graph_circle_tooltip">
+                                            <p>10,256,598 ₽</p>
+                                            <span>1 апреля</span>
+                                        </div>
+                                        <input type="radio" id="info-counter__graph_circle">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-counter__add">
+                            <div class="info-counter__add_cach">
+                                <div>
+                                    <h4>Текущий долг</h4>
+                                    <h3>53 506 ₽</h3>
+                                </div>
+                                <div>
+                                    <h4>В течении месяца</h4>
+                                    <p><span>Оплата: </span>23 400 ₽</p>
+                                    <p><span>Отгружено: </span>62</p>
+                                </div>
+                                <div>
+                                    <h4>Условия по договору</h4>
+                                    <p><span>Отсрочка платежа: </span>25 дней</p>
+                                    <p><span>Кред. лимит: </span>1 500 000 ₽</p>
+                                </div>
+                            </div>
+                            <h5>Последние действия</h5>
+                            <div class="info-counter__add_activities">
+                                <div class="info-counter__add_activities_item">
+                                    <div class="info-counter__add_activities_left">
+                                        <div class="info-counter__add_activities_img_cont">
+                                            <img src="image/Group.svg" alt="">
+                                        </div>
+                                        <div class="info-counter__add_activities_left_txt">
+                                            <p>Выдача кредита</p>
+                                            <span>Вчера, 5 мая</span>
+                                        </div>
+                                    </div>
+                                    <p>1 500 000 ₽</p>
+                                </div>
+                                <div class="info-counter__add_activities_item"> 
+                                    <div class="info-counter__add_activities_left">
+                                        <div class="info-counter__add_activities_img_cont">
+                                            <img src="image/Group.svg" alt="">
+                                        </div>
+                                        <div class="info-counter__add_activities_left_txt">
+                                            <p>Погашение кредита</p>
+                                            <span>Вчера, 5 мая</span>
+                                        </div>
+                                    </div>
+                                    <p>1 500 000 ₽</p>
+                                </div>
+                            </div>
+                            <h5>Судебные дела:</h5>
+                            <div class="info-counter__add_activities">
+                                <div class="info-counter__add_activities_item">
+                                    <div class="info-counter__add_activities_left">
+                                        <div class="info-counter__add_activities_img_cont">
+                                            <img src="image/mdi_court-hammer.svg" alt="">
+                                        </div>
+                                        <div class="info-counter__add_activities_left_txt">
+                                            <p>
+                                                Решение Верховного Суда Республики Хакасия от 24.03.2022 № 3а-31/2022 "Об удовлетворении административного искового заявления"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-counter__add_activities_item"> 
+                                    <div class="info-counter__add_activities_left">
+                                        <div class="info-counter__add_activities_img_cont">
+                                            <img src="image/mdi_court-hammer.svg" alt="">
+                                        </div>
+                                        <div class="info-counter__add_activities_left_txt">
+                                            <p>
+                                                Решение Верховного Суда Республики Хакасия от 24.03.2022 № 3а-31/2022 "Об удовлетворении административного искового заявления"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-counter__add_activities_item"> 
+                                    <div class="info-counter__add_activities_left">
+                                        <div class="info-counter__add_activities_img_cont">
+                                            <img src="image/mdi_court-hammer.svg" alt="">
+                                        </div>
+                                        <div class="info-counter__add_activities_left_txt">
+                                            <p>
+                                                Решение Верховного Суда Республики Хакасия от 24.03.2022 № 3а-31/2022 "Об удовлетворении административного искового заявления"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2><span>Менеджер: </span>Аримов Ренат Данилович </h2>
+            
+                        </div>
+                    </div>
+            
+                    <!-------- general-counter ------->
+                    <div class="dashboard__general-counter counter">
+                        <!-- Use right__graph in js -->
+
+                        <div class="counter__graph_cont right__graph">
+                            <div class="counter__graph_controll">
+                                <div class="counter__graph_title">
+                                    <p>Общая статистика контрагентов</p>
+                                    
+                                </div>
+                                <div class="counter__graph_buts">
+                                    <button class="graph_buts-active">1 М</button>
+                                    <button>1 КВ</button>
+                                    <button>ПЕРИОД</button>
+                                </div>
+                                
+                            </div>
+                            <div class="counter__graph_setting">
+                                <ul>
+                                    <li>Дебет</li>
+                                    <li>Кредит</li>
+                                </ul>
+                            
+                                <img src="image/Type=Hicon, Dark mode=off.svg" alt="icon">
+                            </div>
+                            <div class="counter__graph">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="8">15M</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">10M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">5M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">1M</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="8">0</td>
+
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td></td>
+                                            <td>01 Апр</td>
+                                            <td>02 Апр</td>
+                                            <td>03 Апр</td>
+                                            <td>04 Апр</td>
+                                            <td>05 Апр</td>
+                                            <td>06 Апр</td>
+                                            <td>07 Апр</td>
+                                        </tr>
+                                    </tfoot>
+
+                                </table>
+                                <div class="counter__graph_lines">
+                                    <img src="image/Vector 656.png" alt="">
+                                    <img src="image/Vector 657.png" alt="">
+                                </div>
+                                <div class="counter__graph_circle_cont">
+                                        <div class="counter__graph_circle_tooltip">
+                                            <p>10,256,598 ₽</p>
+                                            <span>1 апреля</span>
+                                        </div>
+                                        <input type="radio" id="general-counter__graph_circle">  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard__list-counter counter">
+                        <div class="list-counter__title">
+                            <h5>Список контрагентов</h5>
+                            <span>27 контрагентов</span>
+                        </div>
+                        <div class="list-counter__table">
+                            <div class="list-counter__table_title">
+                                <div class="list-counter__table_title_partner">
+                                    <p>Контрагент</p>
+                                    <img src="image/Sort.svg" alt="">
+                                </div>
+                                <div class="list-counter__table_title_price">
+                                    <p>Долг</p>
+                                    <img src="image/Sort.svg" alt="">
+                                </div>
+                                <div class="list-counter__table_title_comment">
+                                    <p>Комментарий</p>
+                                    <img src="image/Sort.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>Аримов Ренат Данилович</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>12 000 000  ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>Ожидание платежа, сегодня, до 20:00</p>
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>ООО “Артстрой”</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>15 000 000 ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>Не вывезенная нами арматура</p>
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>Арсенал СУ ООО</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>10 000 000 ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>БерёзовскДорстрой ООО</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>10 000 000  ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>Договорённость между директорами, ожидают платёж</p>
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>Фролов Максим Леонидович</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>10 000 000  ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>Оплата 27.05</p>
+                                </div>
+                            </div>
+                            <div class="list-counter__table_item">
+                                <div class="list-counter__table_partner">
+                                    <p>Миронов Александр Дмитриевич</p>
+                                </div>
+                                <div class="list-counter__table_price">
+                                    <p>110 000  ₽</p>
+                                </div>
+                                <div class="list-counter__table_comment">
+                                    <p>Ожидаем оплаты в течении дня</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <!---- Aside right ----->
+                <aside class="aside__right">
+                    <div>
+                        <div class="aside__notific">
+                            <h4>Уведомления</h4>
+                            <span>Все уведомления</span>
+                        </div>
+                        <ul>
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>Только что</p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>59 минут назад   </p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                
+                
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>12 часов назад</p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="aside__notific">
+                            <h4>Задачи</h4>
+                            <span>Все задачи</span>
+                        </div>
+                        <ul>
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>Только что</p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>59 минут назад   </p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                
+                
+                            <li class="aside__list__item">
+                                Поступила оплата от ООО “MYRRH” на сумму 200 000 ₽
+                                <p>12 часов назад</p>
+                                <hr class="aside__horizontal">
+                            </li>
+                
+                        </ul>
+                    </div>
+                    <div class="aside__last">
+                        <div class="aside__notific">
+                            <h4>Поиск по ИНН</h4>
+                        </div>
+                        <input type="text" placeholder="Введите ИНН контрагента">
+                        <div class="aside__info">
+                            <span>Название</span>
+                            <p>ООО ITAEWON</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>ИНН</span>
+                            <p>7743013902</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Дата регистрации</span>
+                            <p>04.03.2022</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Судебные расходы</span>
+                            <p>1 000 000 ₽</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Обороты за 2021 г.</span>
+                            <p>1 000 000 ₽</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Прибыль за 2021 г.</span>
+                            <p>1 000 000 ₽</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Директор</span>
+                            <p>Аримов Ренат Данилович</p>
+                        </div>
+                        <div class="aside__info">
+                            <span>Веб-сайт</span>
+                            <p>pinkspink.ru</p>
+                        </div>
+                    </div>
+            
+                </aside>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

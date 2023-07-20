@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+:root{
+    --light-mode-background-primary: #fff;
+    --light-mode-system-grey-6: #F4F4F9;
+    --light-mode-system-grey-3: #C7C7CC;
+    --light-mode-label-primary: #48484A;
+    --desktop-accent: #0048FF;
+}
+
+/* ----------Left Aside---------- */
+
+.aside-left{
+    width: 13%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 24px 0 24px 1%;
+    gap: 32px;
+    border-right: 1px solid var(--light-mode-system-grey-3);
+    background: var(--light-mode-background-primary);
+    font-family: "SF Pro Display";
+}
+
+.logo{
+    width: 100%;
+    
+}
+.logo > img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.aside-left__menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    list-style-type: none;
+}
+
+.aside-left__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px 6px 10px;
+    gap: 4%;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;   
+    color: var(--light-mode-label-primary);
+    cursor: pointer;
+    
+}
+
+.aside-left__item:hover{
+    border-radius: 8px 0px 0px 8px;
+    background: var(--light-mode-system-grey-6 );
+}
+
+.aside-left__item-active{
+    border-radius: 8px 0px 0px 8px;
+    background: var(--light-mode-system-grey-6 );
+    position: relative;
+}
+
+.aside-left__item-active::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 16px 0px 0px 16px;
+    background: var(--desktop-accent);
+}
+
+/* ----------- Right Side ---------- */
+
+.right_side{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+}

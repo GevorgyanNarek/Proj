@@ -1,0 +1,23 @@
+@media screen and (max-width:1500px) {
+    
+    .nav__date_day{
+        width: 35%;
+    }
+    .nav__search_block{
+        width: 35%;
+    }
+    
+}
+
+
+@media screen and (max-width:1400px) {
+    .nav__date{
+        width: 14%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .nav__date{
+        width: 15%;
+    }
+}
