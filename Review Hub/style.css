@@ -1,0 +1,799 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.for_center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    width: 90%;
+    position: relative;
+    padding-bottom: 2%;
+}
+.navbar::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #356917;
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+}
+.account_icon{
+    width: 25px;
+    height: 25px;
+}
+
+.nav-item > a:hover{
+    border-bottom: 1px solid #356917;
+    color: #356917;
+}
+
+/* section review */
+.sec-review > div{
+    padding: 20px 0;
+}
+.sec-review .inner_block{
+    width: 90%;
+    background-image: url("images/IMG_finished.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.5% 0;
+}
+.sec-review h2{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    color: #000;
+}
+
+.sec-review ul{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sec-review ul li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.ok_but{
+    width: 284px;
+    height: 65px;
+    background: #81D51C;
+    border-radius: 10px;
+    border: none;   
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    cursor: pointer;
+}
+
+.ok_but:hover{
+    border: 2px solid #81D51C;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.review_img{
+    width: 400px;
+    height: 300px;
+    display: none;
+    background-image: url("images/qrMobile.png") , linear-gradient(135deg, #5F9F03 5%, #fff 100%);
+    background-repeat: no-repeat;
+    background-size: 80% 80%,100% 100% ;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* section success */
+.sec-success > div{
+    padding: 20px 0;
+
+}
+.sec-success .inner_block{
+    width: 90%;
+    padding: 20px 0;
+
+}
+.sec-success .inner_block h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 100px;
+    color: #356917;
+    margin: 0;
+    text-align: center;
+}
+
+.sec-success .inner_block p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+/* section count */
+.sec-count{
+    background-image: url(images/bro.png);
+    background-repeat: no-repeat;
+    background-size: 25% 75%;
+    background-position: 0  0;
+}
+.sec-count > div{
+    padding: 100px 0;
+
+}
+.sec-count h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000;
+    padding: 10px 0 50px;
+}
+
+.sec-count input[type="range"]{
+    appearance: none;
+    width: 55%;
+    height: 16px;
+    border: 1px solid #D2D2D2;
+    border-radius: 20px;
+}
+
+.sec-count input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    background: #CDE2AC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sec-count input[type="range"]::-webkit-slider-thumb:hover{
+    background-color: #356917;
+}
+
+.sec-count input[type="range"]::-moz-range-thumb{
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    background: #CDE2AC;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sec-count input[type="range"]::-moz-range-thumb:hover{
+    background-color: #356917;
+}
+
+.sec-count .range_values{  
+    width: 55%;
+    padding: 20px 0;
+}
+
+.sec-count .count{
+    background-color: #F3F3F3;
+    padding: 2px 25px;
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+.sec-count input.count{
+    width: 70px;
+    padding: 2px 10px;
+    appearance: none;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.sec-count input.count:focus{
+    border: 1px solid #000;
+}
+.sec-count .max_count{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px; 
+    gap: 8%;
+}
+.sec-count .max_count > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #8E8E8E;
+    vertical-align: center;
+}
+
+.sec-count_prices{
+    width: 55%;
+    padding: 20px 0 60px;
+}
+
+.count_price{
+    padding: 35px 40px;
+    background: #F5F6F7;
+    border: 4px solid #6EA520;
+    border-radius: 10px;
+}
+.count_price > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+    color: #000;
+}
+.count_price > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+/* section cart */
+
+.sec-cart > div{
+    padding: 20px 0;
+}
+
+.sec-cart .inner_block{
+    width: 90%;
+}
+.sec-cart h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000;
+}
+
+.sec-cart p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+    padding: 5px 0 40px;
+}
+
+.sec-cart .for_card_img{
+    width: 50%;
+    position: relative;
+}
+.sec-cart .for_card_img > img{
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    object-fit: contain;
+    object-position: center;
+    top: calc(-50% - 70px);
+    right:  0;
+}
+
+/* section contact */
+.sec-contact > div{
+    padding: 50px 0;
+}
+.sec-contact h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000;
+}
+.form_img{
+    position: relative;
+    width: 80%;
+    height: 32vh;
+    background-image: url(images/plans.png);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 100%;
+}
+.form_contact{
+    width: 70%;
+    padding: 20px 20px;
+    box-shadow: 0px 13px 5px rgba(0, 0, 0, 0.01), 0px 7px 4px rgba(0, 0, 0, 0.05), 0px 3px 3px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #F5F6F7;
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    border: 2px solid rgba(11, 11, 11, 0.01);
+}    
+
+.form_contact input.inp_text{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 5px 15px;
+}
+
+.form_contact input.inp_text::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+
+
+.form_contact .for_input_pos{
+    width: 100%;
+    padding: 10px 10px;
+    
+
+}
+.form_contact > textarea{
+    width: 100%;
+    margin: 25px 0;
+    padding: 30px 15px;
+    border: 1px solid #000;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.form_contact > textarea::placeholder{
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.form_contact .for_checkbox{
+    width: 100%;
+    padding: 20px 0 10px;
+    gap: 2%;
+}
+.form_contact .for_checkbox > span{
+    display: block;
+    width: 90%;
+
+}
+.form-contact_checkbox{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #2B313F;
+    border-radius: 2px;
+    position: relative;
+}
+
+.form-contact_checkbox:checked{
+    /* box-shadow: 2px 2px 0px 6px #81D51C; */
+    box-shadow: 2px 2px 121px -48px #81D51C;
+}
+
+.form-contact_checkbox:checked::before {
+    transform: scale(1);
+}
+
+.form-contact_checkbox::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    transform: scale(0);
+    transition: 80ms transform ease-in-out;
+    background-color: #81D51C;
+  }
+
+
+.form_contact .for_checkbox > label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+}
+
+/* footer  */
+footer .inner_block{
+    width: 90%;
+}
+footer .foot_logo{
+    width: 180px;
+    height: 50px;
+    object-fit: contain;
+}
+.foot_menu{
+    list-style-type: none;
+}
+
+.foot_menu a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+}
+
+
+/* Sign in */
+
+.sign-in .inner_block{
+    width: 90%;
+    padding: 50px 0;
+}
+.sign-in .sign-in_img{
+    width: 10%;
+}
+.sign-in  .sign-in_block{
+    width: 70%;
+}
+.sign-in .sign-in_space{
+    width: 10%;
+}
+.sign-in_img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.sign-in h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000;
+}
+.sign-in_info{
+    width: 50%;
+}
+.sign-in_info > input.inp_text{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 5px;
+}
+
+.sign-in_info > label{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #7E7E7E;
+    margin-top: 7px;
+}
+
+.sign-in_for_reg{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+    line-height: 130%;
+    color: #000;
+    padding: 20px 0 15px;
+}
+
+.sign-in_for_reg > a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    border-bottom: 2px solid #356917;
+}
+
+.sign-in_remember{
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+.sign-in_remember a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-decoration: none;
+    color: #5D5D5D;
+    border-bottom: 1px solid #5D5D5D;
+}
+
+.sign-in_icons{
+    width: 80%;
+    padding: 30px 0;
+}
+
+
+/* Sign up */
+
+.sign-up .inner_block{
+    width: 90%;
+    padding: 50px 0;
+}
+.sign-up .sign-up_img{
+    width: 30%;
+}
+.sign-up  .sign-up_block{
+    width: 60%;
+}
+.sign-up_img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.sign-up h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000;
+}
+.sign-up_info{
+    width: 70%;
+}
+.sign-up_info > input.inp_text{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 5px;
+}
+
+.sign-up_info > label{
+    width: 100%;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #7E7E7E;
+    margin-top: 7px;
+}
+
+.sign-up_for_reg{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+    line-height: 130%;
+    color: #000;
+    padding: 20px 0 15px;
+}
+
+.sign-up_for_reg a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    border-bottom: 2px solid #356917;
+}
+
+
+.sign-up_checkbox_cont{
+    width: 100%;
+    padding: 30px 0;
+    gap: 3%;
+}
+.sign-up_checkbox_cont > label{
+    display: block;
+    width: 90%;
+}
+
+.sign-up_checkbox{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #2B313F;
+    border-radius: 2px;
+    position: relative;
+}
+
+.sign-up_checkbox:checked{
+    /* box-shadow: 2px 2px 0px 6px #81D51C; */
+    box-shadow: 2px 2px 121px -48px #81D51C;
+}
+
+.sign-up_checkbox:checked::before {
+    transform: scale(1);
+}
+
+.sign-up_checkbox::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    transform: scale(0);
+    transition: 80ms all ease-in-out;
+    background-color: #81D51C;
+  }
+
+.sign-up_config{
+    text-decoration: none;
+    color: #356917;
+    border-bottom: 1px solid #356917;
+
+}
+
+/* ---- comment */
+
+.comment-company{
+    width: 90%;
+}
+.comment-company > div{
+    padding: 20px 0;
+}
+.company_block{
+    padding: 40px 0;
+    gap: 70px;
+}
+
+.for_company_img{
+    width: 230px;
+    height: 230px;
+    border: 2px solid #B9B9B9;
+    border-radius: 20px;
+    padding: 15px 0;
+}
+
+.for_company_img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.comment-company h3{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000;
+}
+.company_info{
+    width: 70%;
+}
+.company_info > span{
+    display: block;
+    padding-bottom: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #676767;
+}
+.company_info > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5px;
+    font-size: 20px;
+    color: #000;
+}
+.company_info a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+
+}
+.company_info > p > img{
+    margin-right: 10px;
+}
+ 
+.company_info_text{
+    display: none;
+}
+
+.company_info_text a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+
+}
+
+
+.comment-company h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #000000;
+    padding: 15px 0;
+}
+.company_contant{
+    padding: 40px 0; 
+    gap: 30px;
+}
+.company_logo{
+    width: 31%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    gap: 10px;
+    border: 2px solid #A9CF54;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.company_logo:hover{
+    background: #F5F6F7;
+
+}
+
+.company_logo > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+}
+.company_logo > img{
+    width: 20%;
+    object-fit: scale-down;
+}
+.company_logo_single{
+    width: 70% !important;
+    object-fit: contain !important;
+}
+
+.ICON_pro{
+    filter: invert(100%);
+}
+
+
+.ICON_yandex{
+    object-fit: scale-down;
+    width: 20%;
+}
+

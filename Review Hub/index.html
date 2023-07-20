@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Include Bootstrap CSS -->
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <!-- ---------- nav  -->
+        <div class="for_center">
+            
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Тарифы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Скидки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Приобрести карту</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comment.html">Контакты</a>
+                        </li>
+                        <li style="width: 30%;"></li>
+                        <li class="nav-item d-flex align-items-center g">
+                            <img src="images/ICON_user.png" class="account_icon">
+                            <a class="nav-link" href="signIn.html">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                  </div>
+            </nav>
+        </div>
+        <!-- ----------review  -->
+        <div class="container-fluid bg-light p-4 sec-review">
+            <div class="row justify-content-center">
+            <div class="d-flex flex-column justify-content-center inner_block ">
+                <h2>Review hub</h2>
+                <ul>
+                    <li>
+                        Review Hub поможет вам получать отзывы и подписки от вашей аудитории на любые порталы, а также отслеживать статистику переходов по ним и управлять своей репутацией в сети!
+                    </li>
+                    <li>
+                        Добавьте любые ваши ссылки, социальные сети, площадки. Пользователь сам выберет на какой из них перейти, больше не нужно ничего искать!
+                    </li>
+                    <li>
+                        Используете QR - коды? Объедините их все в один QR-код или NFC-карту. Это удобно, меньше места, а главное эффективнее и привлекательнее для вашей аудитории!
+                    </li>
+                    <li>
+                        Какие ссылки можно добавить? Любые карты, соц. сети, мессенджеры, телефоны горячей линии, онлайн-меню и не только
+                    </li>
+                </ul>
+                <div class="review_img"></div>
+                <button class="d-flex justify-content-center align-items-center ok_but">Попробовать сейчас</button>
+            </div>
+            </div>
+        </div>
+        <!-- ----------success  -->
+        <div class="container-fluid sec-success">
+            <div class="row justify-content-center">
+                <div class="d-flex flex-row justify-content-between inner_block">
+                        <div>
+                            <h2>0</h2>
+                            <p>Подключено организаций</p>
+                        </div>
+                        <div>
+                            <h2>0</h2>
+                            <p>Сканирований</p>
+                        </div>
+                        <div>
+                            <h2>0</h2>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------count -->
+        <div class="container-fluid sec-count">
+            <div class="row justify-content-center">
+                <div class="d-flex flex-column align-items-center inner_block">
+                        <h2>Количество подключаемых организаций</h2>
+                        <input type="range" value="10" min="0" max="500">
+                        <div class="d-flex justify-content-between align-items-center range_values">
+                            <div class="min_count count">
+                                1
+                            </div>
+                            <div class="max_count">
+                                <p>Введите <br> количество:</p>
+                                <input class="count" value="100">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around sec-count_prices">
+                            <div class="d-flex flex-column justify-content-center count_price">
+                                <p>100 ₽</p>
+                                <span>1 месяц</span>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-center count_price">
+                                <p class="text-decoration-line-through">600 ₽</p>
+                                <p>540 ₽</p>
+                                <span>6 месяц</span>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-center count_price">
+                                <p class="text-decoration-line-through">1200 ₽</p>
+                                <p>1080 ₽</p>
+                                <span>1 год</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center ok_but">Подключить сейчас</div>
+                </div>
+            </div>
+        </div>  
+        <!-- -------------- cart -->
+        <div class="container-fluid bg-light p-4 sec-cart">
+            <div class="row justify-content-center">
+                <div class="d-flex justify-content-between inner_block">
+                    <div class="cart_block">
+                        <h2>купи 3 nfC карты</h2>
+                        <p>и получи в подарок от 2 месяцев пользования сервисом</p>
+                        <div class="d-flex  justify-content-center align-items-center ok_but">Заказать NFC карту</div>
+                    </div>
+                    <div class="for_card_img">
+                        <img src="images/rafiki.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------contact -->
+        <div class="container-fluid p-4 sec-contact">
+            <div class="row justify-content-center">
+                <div class="d-flex flex-column justify-content-between align-items-center inner_block">
+                    <h2>остались вопросы? Свяжись с нами</h2>
+                    <div class="form_img">
+                        <form class="d-flex flex-column justify-content-between align-items-center form_contact">
+                            <input class="inp_text" placeholder="Имя">
+                            <div class="d-flex justify-content-between for_input_pos">
+                                <input class="inp_text" placeholder="Email">
+                                <input class="inp_text" placeholder="Номер телефона">
+                            </div>
+                            <textarea placeholder="Текст сообщения"></textarea>
+                            <div class="d-flex  justify-content-center align-items-center ok_but">Отправить вопрос</div>
+                            <div class="d-flex align-items-center align-items-center for_checkbox">
+                                <input type="checkbox" class="form-contact_checkbox" required>
+                                <label>Соглашаюсь на обработку персональных данных в соответствии с правилами</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------- footer -->
+        <footer class="container-fluid bg-light p-4">
+            <div class="row justify-content-center">
+                <div class="d-flex flex-column justify-content-between inner_block">
+                    <img src="images/logo.png" class="foot_logo">
+                    <hr>
+                    <ul class="foot_menu d-flex justify-content-between">
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Политика конфеденциальности</a></li>
+                        <li><a href="#">Копирование материалов запрещено</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

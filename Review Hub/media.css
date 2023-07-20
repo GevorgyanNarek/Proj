@@ -1,0 +1,858 @@
+@media screen and (max-width:2500px) {
+    .navbar,.sec-review .inner_block,.sec-success .inner_block,.sec-cart .inner_block,footer .inner_block,.sign-in .inner_block,.sign-up .inner_block,.comment-company{
+        width: 70%;
+    }
+    /* review */
+    .sec-review > div{
+        padding: 20px 0 80px;
+    }
+    .sec-review .inner_block{
+        padding: 2% 0;
+        background-position: 0 0;
+        background-size: contain;
+    }
+    .sec-review ul{
+        width: 55%;
+    }
+    .sec-review ul li {
+        font-size: 30px;
+        padding: 6px 0;
+    }
+    .sign-in .sign-in_img{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .navbar,.sec-review .inner_block,.sec-success .inner_block,.sec-cart .inner_block,footer .inner_block,.sign-up .inner_block,.comment-company{
+        width: 70%;
+    }
+
+    /* review */
+    .sec-review > div{
+        padding: 20px 0 70px;
+    }
+    .sec-review .inner_block{
+        padding: 2% 0;
+        background-position: 0 0;
+        background-size: contain;
+    }
+    .sec-review ul{
+        width: 50%;
+    }
+    .sec-review ul li {
+        font-size: 24px;
+        padding: 6px 0;
+    }
+    /* contact */
+    .form_img{
+        width: 60%;
+    }
+    /* sign-in */
+    .sign-in .sign-in_img{
+        width: 13%;
+    }
+
+}
+@media screen and (max-width:1800px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 1.5% 0;
+    } 
+    /* sign-in */
+    .sign-in .sign-in_img{
+        width: 15%;
+    }
+       
+}
+
+@media screen and (max-width:1600px) {
+    .navbar,.sec-review .inner_block,.sec-success .inner_block,.sec-cart .inner_block,footer .inner_block,.sign-in .inner_block,.sign-up .inner_block,.comment-company{
+        width: 90%;
+    }
+    /* review */
+    .sec-review .inner_block{
+        padding: 3% 0 5%;
+        background-position: 70% 0;
+        background-size: cover;
+
+    }
+    .sec-review ul{
+        width: 50%;
+    }
+    .sec-review ul li {
+        padding: 25px 0;
+        font-size: 24px;
+    }
+    /* contact */
+    .form_img{
+        width: 80%;
+    }
+    /* sign-in */
+    .sign-in .sign-in_img{
+        width: 10%;
+    }
+}
+@media screen and (max-width:1500px) {
+    /* review */
+    .sec-review > div{
+        padding: 20px 0;
+    }
+    .sec-review .inner_block{
+        padding: 5% 0;
+        background-position: 80% 0;
+    }
+    .sec-review ul{
+        width: 40%;
+    }
+    .sec-review ul li {
+        padding: 15px 0;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    /* review */
+    .sec-review .inner_block{
+        background-position: 90% 0;
+    }
+    .sec-review ul li {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 5.5% 0;
+    }
+    .sec-review ul{
+        width: 36%;
+    }
+    .sec-review ul li {
+        padding: 7px 0;
+        font-size: 21px;
+    }
+
+    /* comment */
+    .company_logo > span{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 8% 0;
+        background-position: 80% 25%;
+        background-size: 100% 70%;
+    }
+    .sec-review ul{
+        width: 40%;
+    }
+    .sec-review ul li {
+        padding: 5px 0;
+    }
+    /* count */
+    .sec-count{
+        background-size: 30% 75%;
+        background-position: 0 50%;
+    }
+    .sec-count > div{
+        padding: 40px 0 100px;
+    
+    }
+    /* sign in */
+    .sign-in h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .sign-in .sign-in_block{
+        width: 60%;
+    }
+    .sign-in .sign-in_img{
+        width: 15%;
+    }
+    .sign-in .sign-in_space{
+        width: 5%;
+    }
+    /* sign up */
+    .sign-up h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .sign-up .sign-up_block{
+        width: 60%;
+    }
+    .sign-up .sign-up_img{
+        width: 30%;
+    }
+
+    /* comment */
+    .company_contant{
+        justify-content: flex-start !important;
+        column-gap: 7%;
+    }
+    .company_logo{
+        width: 45%;        
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 3.5% 0 0 3%;
+        background-position: 60% 25%;
+        background-size: 100% 70%;
+    }
+    .sec-review ul{
+        width: 50%;
+    }
+    .sec-review ul li {
+        font-size: 18px;
+    }
+    /* success */
+    .sec-success .inner_block h2{
+        font-size: 80px;
+    }
+    .sec-success .inner_block p{
+        font-size: 18px;
+    }
+    /* count */
+    .sec-count{
+        background-size: 35% 75%;
+        background-position: 0 50%;
+    }
+    /* cart */
+    .sec-cart p{
+        font-size: 20px;
+    }
+
+    /* footer */
+    .foot_menu a{
+        font-size: 15px;
+    }
+
+    /* sign in */
+    .sign-in h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sign-in .sign-in_block{
+        width: 60%;
+    }
+    .sign-in .sign-in_img{
+        width: 15%;
+    }
+    .sign-in .sign-in_space{
+        width: 5%;
+    }
+
+    .sign-in_info{
+        width: 60%;
+    }
+    /* sign up */
+    .sign-up h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sign-up_checkbox_cont{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 5.5% 0 0 0;
+    }
+    /* count */
+    .sec-count{
+        background-size: 40% 75%;
+        background-position: 0 50%;
+    }
+    .sec-count h2{
+        font-size: 25px;
+    }
+    .sec-count input[type="range"],.sec-count .range_values,.sec-count_prices{
+        width: 70%;
+    }
+    /* cart */
+    .sec-cart .for_card_img > img{
+        width: 480px;
+        height: 480px;
+        top: calc(-50% - 30px);
+    }
+    /* contact */
+    .form_img{
+        width: 90%;
+    }
+    .form_contact .for_input_pos{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form_contact > textarea,.form_contact .for_checkbox{
+        width: 90%;
+    }
+    
+    .form_contact input.inp_text{
+        width: 90%;
+        padding: 10px 0;
+    }
+    /* sign in */
+    .sign-in_info{
+        width: 70%;
+    }
+
+    /* sign up */
+    .sign-up_info{
+        width: 70%;
+    }
+    /* comment */
+    .company_logo{
+        gap: 5px;
+        width: 46%;        
+        padding: 15px 0;
+    }
+    .company_logo > span{
+        font-size: 23px;
+    }
+    .company_info > p{
+        font-size: 16px;
+    }
+    .company_info > p > img{
+        margin-right: 3px;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 5% 0 0 3%;
+        background-position: 70% 15%;
+    }
+    .sec-review ul li {
+        padding: 3px 0;
+        font-size: 18px;
+    }
+    .ok_but{
+        width: 220px;
+        height: 55px;
+    }
+    .sec-review h2{
+        font-size: 35px;
+    }
+    /* cart */
+    .sec-cart h2{
+        font-size: 26px;
+
+    }
+    .sec-cart p{
+        font-size: 20px;
+        padding: 3px 30px 20px 0;
+    }
+    .sec-cart .for_card_img > img{
+        width: 380px;
+        height: 380px;
+        top: calc(-50% - 30px);
+        right: -50px;
+    }
+    /* contact */
+    .sec-contact h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .form_contact .for_checkbox > label{
+        font-size: 12px;
+    }
+    /* footer */
+    .foot_menu{
+        flex-direction: column;
+        gap: 3px;
+        font-size: 20px;
+    }
+    /* comment */
+    .company_block{
+        gap: 15px;
+    }
+    .company_logo{
+        gap: 5px;
+        width: 46%;        
+    }
+    .for_company_img{
+        width: 180px;
+        height: 180px;
+    }
+    .company_info > span{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    /* review */
+    .sec-review ul li {
+        font-size: 16px;
+    }
+    /* success */
+    .sec-success .inner_block h2{
+        font-size: 60px;
+    }
+    .sec-success .inner_block p{
+        font-size: 14px;
+    }
+
+    /* count */
+    .sec-count{
+        background-size: 40% 75%;
+        background-position: 0 50%;
+    }
+    .sec-count h2{
+        font-size: 22px;
+    }
+    .sec-count .range_values,.sec-count_prices{
+        width: 80%;
+    }
+    .sec-count input[type="range"]{
+        width: 80%;
+        height: 13px;
+    }
+    .sec-count input[type="range"]::-webkit-slider-thumb{
+        width: 40px;
+        height: 40px;
+    }
+    /* cart */  
+    .sec-cart > div{
+        padding: 10px 0;
+    }
+    .sec-cart .for_card_img > img{
+        width: 360px;
+        height: 360px;
+        top: calc(-50% - 30px);
+    }
+    /* sign in */
+    .sign-in h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .sign-in_for_reg{
+        font-size: 16px;
+
+    }
+
+    .sign-in_info > input.inp_text{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        padding: 2px;
+    }
+
+    /* sign up */
+    .sign-up_info > input.inp_text{
+        padding: 2px;
+    }
+    .sign-up_info > label{
+        margin-top: 6px;
+    }
+    .sign-up_for_reg{
+        padding: 5px 0;
+    }
+    .sign-up_info{
+        width: 90%;
+    }
+    /* comment */
+    .company_info > h3{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    /* review */
+    .sec-review ul li {
+        font-size: 14px;
+    }
+    /* count */
+    .sec-count h2{
+        font-size: 19px;
+    }
+    .count_price{
+        padding: 25px 30px;
+    }
+    /* cart */  
+    .sec-cart h2{
+        font-size: 22px;
+    }
+    .sec-cart p{
+        padding: 3px 0 10px;
+    }
+    .sec-cart .for_card_img > img{
+        width: 360px;
+        height: 360px;
+        top: calc(-50%);
+    }
+    /* contact */
+    .form-contact_checkbox{
+        width: 18px;
+        height: 18px;
+    }
+    .form_contact .for_checkbox label{
+        width: 80%;
+        font-size: 11px;
+    }
+    /* comment */
+    .comment-company h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .comment-company h3{
+        font-size: 40px;
+    }
+    .company_contant{
+        justify-content: center !important;
+    }
+    .company_logo{
+        width: 70%;  
+        padding: 30px 0;
+    }
+    .company_logo_single{
+        width: 60%;  
+    }
+    .company_info > p{
+        display: none;
+    }
+
+    .company_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .for_company_img{
+        width: 250px;
+        height: 250px;
+    }
+    .company_info{
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .company_info > h3{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .company_info_text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .company_info_text > p > img{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* review */
+    .sec-review .inner_block{
+        padding: 2% 0;
+    }
+    .sec-review .inner_block{
+        background-image: none;
+        align-items: center;
+    }
+    .sec-review ul{
+        width: 100%;
+    }
+    .review_img{
+        display: block;
+        width: 250px;
+        object-fit: contain;
+        object-position: center;
+        margin: 20px 0 30px 0;
+    }
+    /* success */
+    .sec-success .inner_block{
+        flex-direction: column !important;
+    }
+    .sec-success .inner_block h2{
+        font-size: 80px;
+    }
+    .sec-success .inner_block p{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    /* count */
+    .sec-count{
+        background-size: 40% 50%;
+        background-position: 0 70%;
+    }
+    .sec-count h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .sec-count_prices{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .count_price{
+        height: 150px;
+        padding: 0 25%;
+    }
+    .sec-count .max_count > p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /* cart */
+    .sec-cart > div{
+        padding: 0;
+    }
+    .sec-cart .inner_block{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sec-cart .cart_block{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-cart .cart_block h2{
+        text-align: center;
+    }
+    .sec-cart .cart_block p{
+        text-align: center;
+    }
+    .sec-cart .for_card_img{
+        width: 70%;
+        padding-bottom: 30px;
+    }
+    .sec-cart .for_card_img > img{
+        position: static;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+    /* contact */
+    .sec-contact > div{
+        padding: 0;
+    }
+    .form_contact .for_checkbox{
+        width: 100%;
+        padding-top: 20px;
+        gap: 4%;
+    }
+
+    .form-contact_checkbox{
+        width: 15px;
+        height: 15px;
+    }
+
+    /* sign in */
+    .sign-in h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .sign-in_for_reg{
+        font-size: 14px;
+
+    }
+    .sign-in_info{
+        width: 90%;
+    }
+
+    
+    /* sign up */
+    .sign-up  .sign-up_block{
+        width: 80%;
+    }
+    .sign-up .sign-up_img{
+        display: none;
+    }
+    .sign-up_info{
+        width: 90%;
+    }
+    .sign-up_checkbox{
+        width: 18px;
+        height: 18px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    /* count */
+    .sec-count{
+        background-size: 60% 50%;
+        background-position: 0 70%;
+    }
+    /* contact */
+    .form_contact .for_checkbox{
+        width: 100%;
+        padding-top: 20px;
+        gap: 5%;
+    }
+    .sec-contact .ok_but{
+        width: 190px;
+        font-size: 18px;
+    }
+    .sec-contact h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .form_contact input.inp_text::placeholder,.form_contact > textarea::placeholder{
+        font-size: 16px;
+    }
+
+    /* comment */
+    .company_contant{
+        justify-content: center !important;
+    }
+    .company_logo_single{
+        width: 60%;  
+    }
+    .comment-company h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .company_logo{
+        gap: 2px;
+        width: 90%;  
+        height: 170px;
+        padding: 30px 0;
+    }
+    .company_logo_single{
+        width: 60%;  
+    }
+    .company_info > p{
+        display: none;
+    }
+    .company_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .for_company_img{
+        width: 250px;
+        height: 250px;
+    }
+    .company_info{
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+    }
+    /* sign in */
+    .sign-in h2{
+        font-size: 20px;
+    }
+    .sign-in_for_reg{
+        padding: 5px 0;
+    }
+    /* sign up */
+    .sign-up_checkbox_cont{
+        font-size: 12px;
+        gap: 4%;
+    }
+
+
+}
+@media screen and (max-width:450px) {
+    /* sign in */
+    .sign-in  .sign-in_img{
+        display: none;
+    }
+    .sign-in  .sign-in_space{
+        display: none;
+    }
+
+    .sign-in  .sign-in_block{
+        width: 90%;
+        align-items: center;
+    }
+    .sign-in  h2{
+        font-size: 25px;
+    }
+    .sign-in_info{
+        width: 80%;
+    }
+    /* commment */
+    .company_info > h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    /* count */
+    .sec-count{
+        background-size: 70% 50%;
+        background-position: 0 80%;
+    }
+
+    /* contact */
+    .form_contact .for_checkbox{
+        width: 90%;
+        padding-top: 20px;
+        gap: 3%;
+    }
+    .form_contact .for_checkbox label{
+        font-size: 9px;
+    }
+    .form-contact_checkbox{
+        width: 15px;
+        height: 15px;
+    }
+    .sec-contact .ok_but{
+        width: 160px;
+        font-size: 18px;
+    }
+    .sec-contact h2{
+        font-size: 23px;
+        text-align: center;
+    }
+    .form_contact input.inp_text::placeholder,.form_contact > textarea::placeholder{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height:1150px) {
+    .form_img{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-height:1000px) {
+    .form_img{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height:900px) {
+    .form_img{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-height:800px) {
+    .form_img{
+        height: 63vh;
+    }
+}
+
+@media screen and (max-height:700px) {
+    .form_img{
+        height: 71vh;
+    }
+}
+
+
+@media screen and (max-height:600px) {
+    .form_img{
+        height: 81vh;
+    }
+}
