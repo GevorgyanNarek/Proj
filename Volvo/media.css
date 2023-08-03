@@ -1,0 +1,250 @@
+@media only screen and (max-width: 1550px) {
+    .item p{
+        font-size: 20px;
+    }
+
+    .item h2, .contact>h2{
+        font-size: 65px;
+    }
+
+    .contacts h2{
+        font-size: 18px;
+    }
+
+    .contacts p{
+        font-size: 18px;
+    }
+
+    .form h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1300px) and (min-width:1020px) and (max-height:700px) {
+        main{
+            grid-template-rows: 70vh 70vh;
+        }
+}
+
+@media only screen and (max-width: 1130px) {
+    .item p{
+        font-size: 17px;
+    }
+
+    .item h2, footer>h2{
+        font-size: 50px;
+    }
+
+    .contacts h2{
+        font-size: 16px;
+    }
+
+    .contacts p{
+        font-size: 16px;
+    }
+
+    .form h3{
+        font-size: 25px;
+    }
+
+    .contacts{
+        grid-template-columns: 55% 45%;
+    }
+}
+
+@media only screen and (max-width: 1020px){
+    main{
+        padding-top: 0;
+        grid-template-columns: 70%;
+        grid-template-rows: auto;
+        gap: 2vh;
+    }
+
+    .item-text{
+        grid-row: 4/5;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .info{
+        grid-template-columns: 100%;
+        gap: 5%;
+        justify-items: center;
+    }
+
+    .contacts{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form{
+        width: 60%;
+    }
+
+    .contacts h2{
+        font-size: 18px;
+    }
+
+    .contacts p{
+        font-size: 18px;
+    }
+
+    .form h3{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width:769px) {
+    .item p{
+        font-size: 16px;
+    }
+
+    .item h2, footer>h2{
+        font-size: 45px;
+    }
+
+    .nav-logo img{
+        width: 100px;
+        height: 100%;
+    }
+
+    .nav-link{
+        font-size: 2.2rem;
+    }
+    .nav-item img{
+        width: 40px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(14px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-14px) rotate(-45deg);
+    }
+
+}
+
+@media only screen and (max-width: 710px){
+    .item p{
+        font-size: 15px;
+    }
+
+    .item h2, footer>h2{
+        font-size: 40px;
+    }
+
+    .item-info{
+        gap: 40px;
+    }
+
+    .contacts h2{
+        font-size: 15px;
+    }
+
+    .contacts p{
+        font-size: 15px;
+    }
+
+    .form h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    main{
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+
+
+    .contacts {
+        grid-template-columns: 50% 50%;
+        row-gap: unset;
+    }
+
+    .form{
+        gap: 32px;
+    }
+
+    .contacts h2{
+        font-size: 14px;
+    }
+
+    .contacts p{
+        font-size: 14px;
+    }
+
+    .form h3{
+        font-size: 20px;
+    }
+    .form input{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    .contacts{
+        column-gap:5%;
+        padding-right: 0;
+        grid-template-columns: 40% 60%;
+    }
+
+    .form{
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .contacts h2{
+        font-size: 13px;
+    }
+
+    .contacts p{
+        font-size: 13px;
+    }
+
+    .form h3{
+        font-size: 16px;
+    }
+    .form input{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,62 @@
+[21-Jul-2023 10:58:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\src\PHPMailer" not found in /home/realizel/public_html/send_mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 14
+[21-Jul-2023 10:58:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\src\PHPMailer" not found in /home/realizel/public_html/send_mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 14
+[21-Jul-2023 10:59:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\src\PHPMailer" not found in /home/realizel/public_html/send_mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 14
+[21-Jul-2023 10:59:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\src\PHPMailer" not found in /home/realizel/public_html/send_mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 14
+[21-Jul-2023 11:02:43 UTC] PHP Warning:  require(/src/Exception.php): Failed to open stream: No such file or directory in /home/realizel/public_html/send_mail.php on line 9
+[21-Jul-2023 11:02:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/realizel/public_html/send_mail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 9
+[21-Jul-2023 11:02:46 UTC] PHP Warning:  require(/src/Exception.php): Failed to open stream: No such file or directory in /home/realizel/public_html/send_mail.php on line 9
+[21-Jul-2023 11:02:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/realizel/public_html/send_mail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 9
+[21-Jul-2023 11:13:30 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:14:29 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:14:30 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:17:19 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:17:21 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:18:11 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:18:13 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:26:11 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
+[21-Jul-2023 11:28:27 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "SMTPOptions" on null in /home/realizel/public_html/send_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/realizel/public_html/send_mail.php on line 10
